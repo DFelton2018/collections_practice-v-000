@@ -46,10 +46,7 @@ array[0].each_with_index.collect{|element| ends_with_s << element + "s" }
 ends_with_s
 end
  
-=======
-    
-  
->>>>>>> e7cd75f5cdd083dd8ceda9e5e17fcdfae677c683
+
   
   
   
