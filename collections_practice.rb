@@ -42,7 +42,7 @@ end
 
 def add_s(array)
 ends_with_s = []
-array[0].each_with_index.collect{|element| ends_with_s << element + "s" }
+array.each_with_index.collect{|element| ends_with_s << element + "s" }
 ends_with_s
 end
  
