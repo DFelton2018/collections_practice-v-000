@@ -24,16 +24,14 @@ end
 def kesha_maker(array)
   kesha_array = []
   array.each do |word|
-<<<<<<< HEAD
+
     kesha_array << word[2] = "$"
-=======
-    kesha_array << (word.replace 2, "$")
->>>>>>> e7cd75f5cdd083dd8ceda9e5e17fcdfae677c683
+
     kesha_array
   end
 end
 
-<<<<<<< HEAD
+
 def find_a(array)
   array.keep_if{|word| word[0] == "a"}
 end
