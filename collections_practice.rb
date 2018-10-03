@@ -47,6 +47,3 @@ ends_with_s
 end
  
 
-  
-  
-  
