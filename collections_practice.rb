@@ -41,9 +41,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-next if "feet"
 ends_with_s = []
-
 array.each_with_index.collect{|element| ends_with_s << element + "s" }
 ends_with_s
 end
