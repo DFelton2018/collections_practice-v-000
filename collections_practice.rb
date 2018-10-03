@@ -42,7 +42,7 @@ end
 
 def add_s(array)
 ends_with_s = []
-array.each_with_index.collect{|element, index| if element != "feet" ends_with_s << element + "s" }
+array.each_with_index.collect{|element, index| ends_with_s << element + "s" }
 ends_with_s
 end
  
