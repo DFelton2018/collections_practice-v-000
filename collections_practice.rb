@@ -47,5 +47,5 @@ skip if element == "feet"
 ends_with_s << element + "s" 
 ends_with_s
 end
- 
+end
 
